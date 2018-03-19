@@ -7,6 +7,7 @@ time = 0.0f;
 
 function Update () {
 time = time + Time.deltaTime;
-print("Time:"+time);
+var seconds:int = time;
+print("Time:"+seconds);
 
 }
